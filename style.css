@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    background-image: url(portfolio\ background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header .intro h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.header .intro h1 span {
+    color: #ffba00;
+}
+
+.header .intro p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hire-btn {
+    padding: 10px 20px;
+    background-color: #ffba00;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hire-btn:hover {
+    background-color: #e09c00;
+}
+
+.intro-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 60px 0;
+    background-color:#222;
+}
+
+.about .about-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.about .about-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.cv-btn {
+    padding: 10px 20px;
+    background-color: #50c8f4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cv-btn:hover {
+    background-color: #3aa4c8;
+}
+
+.services {
+    padding: 60px 0;
+    background-color: #333;
+}
+
+.services h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.service-box {
+    flex: 1;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.projects {
+    background: #333;
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+
+.project-item {
+    background: #222;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1 1 30%;
+}
+
+.project-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    width: 400
+    px;
+    height: 300px;
+}
+
+ .vs-btn {
+    padding: 10px 20px;
+    background-color: #ffba00;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+ }
+
+ .vs-btn:hover {
+    background-color: #e09c00;
+}
+
+.project-item h2 {
+    color:#ffba00;
+    padding: 40px 0;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
